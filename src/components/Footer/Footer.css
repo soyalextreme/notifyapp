@@ -1,0 +1,46 @@
+.FooterConteiner {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.FooterShow {
+  position: fixed;
+  bottom: 0;
+  font-size: 6rem;
+  width: 100%;
+  font-family: "Inconsolata", monospace;
+}
+
+.FooterConteiner a {
+  color: white;
+}
+
+.FooterItem {
+  color: blanchedalmond;
+  display: inline-block;
+  font-size: small;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.FooterContacto {
+  font-family: "Inconsolata", monospace;
+}
+
+.FooterBrand {
+  font-family: "Lobster";
+  font-size: 20px;
+}
+
+.FooterConteiner:hover {
+  opacity: 0.7;
+}
+
+@media (max-wodth: 500px) {
+  .FooterAll {
+    transform: translateY(400px);
+  }
+}

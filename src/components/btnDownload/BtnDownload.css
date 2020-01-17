@@ -1,0 +1,18 @@
+:root {
+  --colorBtn: rgba(75, 171, 116, 0.6);
+}
+
+.btn-container-download {
+  background-color: var(--colorBtn);
+  left: 120px;
+  width: 120px;
+  height: 40px;
+  border-radius: 2rem;
+  position: absolute;
+}
+
+.btn-container-download a {
+  text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.7);
+  font-family: "Lobster";
+  font-size: 25px;
+}

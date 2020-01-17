@@ -1,0 +1,28 @@
+.Right {
+  background-color: blue;
+  width: 50%;
+}
+
+.Left {
+  background-color: coral;
+  width: 50%;
+}
+
+. {
+  background-color: cyan;
+}
+
+.BodyRegisterAll {
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: rgba(237, 237, 237, 1);
+  width: 40%;
+  border-radius: 3rem;
+}
+
+.input-conteiner {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 23%;
+}

@@ -1,0 +1,79 @@
+li {
+  text-decoration: none;
+  list-style: none;
+}
+p {
+  margin: 0;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.4);
+}
+
+.rigth {
+  /* background-color: red; */
+  position: fixed;
+  width: 50%;
+  left: -3%;
+  top: 20%;
+}
+.left {
+  /* background-color: blue; */
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+  transform: rotate(5deg);
+}
+
+.list-container {
+  font-family: "Lobster";
+}
+
+.word-container1 {
+  font-size: 50px;
+  margin-bottom: 5%;
+  position: relative;
+}
+.word-container2 {
+  margin-bottom: 5%;
+  font-size: 64px;
+  position: relative;
+  left: 15%;
+}
+
+.word-container3 {
+  font-size: 72px;
+  position: relative;
+  left: 25%;
+}
+
+@media (max-width: 1000px) {
+  .rigth {
+    left: -10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .rigth {
+    position: relative;
+    transform: translateY(650px) translateX(80px);
+  }
+  .left {
+    width: 100%;
+    top: -5%;
+    transform: scale(0.5);
+  }
+  .list-container {
+    transform: scale(0.7);
+  }
+  .word-container1 {
+    position: relative;
+    left: 0;
+  }
+  .word-container2 {
+    position: relative;
+    left: 0;
+  }
+  .word-container3 {
+    position: relative;
+    left: 0;
+  }
+}
